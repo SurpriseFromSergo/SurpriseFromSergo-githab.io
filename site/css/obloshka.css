@@ -1,6 +1,6 @@
 body{
  background-image: url("../img/fs1.jpg");
-    background-size: contain;
+    background-size: cover;
 }
 
 .div {
