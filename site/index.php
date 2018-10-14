@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"> 
+<html>
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Главная</title> 
+		 <link rel="stylesheet" href="css/main_style.css"> 
+	</head>
+	<body> 
+		<div class="content">
+			<div class="header">
+				<div class="logotip">
+					<div class="logo_photo">
+						photo
+					</div>
+					<div class="logo_WORLD">
+						WORLD
+					</div>
+				</div>
+				<div class="menu">
+					<div class="menu_v">
+						<a href="obloshka.php">Обложка</a>
+					</div>
+					<div class="menu_v">
+						<a href="index.php" style="color: blue">Главная</a>
+					</div>
+					<div class="menu_v">
+						<a href="photo__clientov.php">Фото клиентов</a>
+					</div>
+					<div class="menu_v">
+						<a href="onas.php">О нас</a>
+					</div>
+					<div class="menu_v">
+						<a href="kontakts.php">Контакты</a></li>
+					</div>
+					<div class="menu_v">
+						<a href="zapis.php">Запись</a>
+					</div>
+					<div class="social_networks">
+						<a href="https://vk.com" target="_blank"><img src="img/social/vk.png" alt="vk site" width=30 high=30></a>
+						<a href="https://ru-ru.facebook.com/" target="_blank"><img src="img/social/fb.png" alt="facebook site" width=30 high=30></a>
+						<a href="https://www.instagram.com/" target="_blank"><img src="img/social/ins.png" alt="instagram site" width=30 high=30></a>
+					</div>
+				</div>
+				
+			</div>
+			<div class="content_text_posle_header">
+				<h4 align="center" class="text_hello">Для Вас только лучшие решения</h4>
+				<h3 align="center" class="text_posle_hello ">Произведите впечатление на друзей, сделав пару хороших снимков в альбом. С нами это легко!</h3>	
+				<div class="pictures">
+					<div class="rek">
+					    <img src="img\ловстори1.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            LOVE STORY
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_LOVE_STORY.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\студия4.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Аренда студии
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Arenda_studii.php">Стоимость</a>
+					        </div>
+					        
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\вожиданиичуда3.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            В ожидании чуда
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_V_ojidanii_chuda.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\женскийпортрет3.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Женский портрет
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Jenskiy_portret.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\мужскойпартрет3.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Мужской портрет
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Mujskoy_portret.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\реклама1.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Реклама
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Reclama.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					
+					
+					<div class="rek">
+					    <img src="img\свадьба1.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Свадьба
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Svadba.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\Семья3.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Семья
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Sema.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\дети3.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Дети
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Deti.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\пейзаж2.jpg" alt="error">
+					    <div class="hide">
+					        <div class="name_picture">
+					            Пейзажи
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Peizazhi.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\фотопректы3.jpg" alt="error">
+					    <div class="hide">
+					         <div class="name_picture">
+					            Фотопроекты
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Proectu.php">Стоимость</a>
+					        </div>
+					    </div>
+					</div>
+					<div class="rek">
+					    <img src="img\доки3.jpg" alt="error">
+					    <div class="hide">
+					         <div class="name_picture">
+					            Фото на документы
+					        </div>
+					        <div class="stoimost_ssulka">
+					            <a href="st_Doki.php">Стоимость</a>
+					        </div>
+					    </div>
+                    </div>
+					
+				</div>	
+				<div class="autor">	
+					<h3>© 2017 Сергей Мелкомуков </h3>
+				</div>
+			</div>
+			
+			<!--конец кода подключаем джава скрипты-->
+			<script src="js/headhesive.min.js"></script>
+			<script src="js/js.js"></script>
+		</div>
+	</body>
+</html>

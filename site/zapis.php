@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"> 
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Запись</title> 
+		<link rel="stylesheet" href="css/main_style.css"> 
+		<link rel="stylesheet" href="css/tcal.css"> 
+		
+	</head>
+	<body>
+		<div class="content_all_Zapis">
+			<div class="header">
+				<div class="logotip">
+					<div class="logo_photo">
+						photo
+					</div>
+					<div class="logo_WORLD">
+						WORLD
+					</div>
+				</div>
+				<div class="menu">
+					<div class="menu_v">
+						<a href="obloshka.php">Обложка</a>
+					</div>
+					<div class="menu_v">
+						<a href="index.php">Главная</a>
+					</div>
+					<div class="menu_v">
+						<a href="photo__clientov.php">Фото клиентов</a>
+					</div>
+					<div class="menu_v">
+						<a href="onas.php">О нас</a>
+					</div>
+					<div class="menu_v">
+						<a href="kontakts.php" >Контакты</a>
+					</div>
+					<div class="menu_v">
+						<a href="zapis.php" style="color: blue">Запись</a>
+					</div>
+					<div class="social_networks">
+						<a href="https://vk.com" target="_blank"><img src="img/social/vk.png" alt="vk site" width=30 high=30></a>
+						<a href="https://ru-ru.facebook.com/" target="_blank"><img src="img/social/fb.png" alt="facebook site" width=30 high=30></a>
+						<a href="https://www.instagram.com/" target="_blank"><img src="img/social/ins.png" alt="instagram site" width=30 high=30></a>
+					</div>
+				</div>	
+			</div>
+			<div class="content_under_header_Zapis">
+				<div class="Kalendar_Zapis">
+					<div class="google_kalendar">
+						<iframe src="https://calendar.google.com/calendar/embed?src=tc1jt7bo4s010m436e4soi3pv4%40group.calendar.google.com&ctz=Asia%2FKrasnoyarsk" 
+						style="border: 0" width="700" height="400" frameborder="0" scrolling="no"></iframe>
+					</div>
+					
+					<button class="kli"><a href="spisok_clientov.php">Сегодняшние клиенты</a></button>
+					
+				</div>
+				<div class="Menu_vubora_uslugi_Zapis">
+					<div class="block_vubora_uslugi_Zapis">
+						<div class="Title_zapis">Бронирование</div>
+						<div class="text_for_users_zapis">
+							Выберите интересующую вас услугу.
+						</div>
+						<div class="forma_zapis">
+						
+						
+							<form action="send.php" method="POST">
+								<input type="text" name="Familia" placeholder="Фамилия" required>
+								<input type="text" name="name" placeholder="Имя" required>
+								<input type="text" name="Number" placeholder="Номер телефона" required>
+								<input type="date"  id="date" name="date" placeholder="Дата" required>
+								
+								<select required name="time" size="1">
+									<option disabled selected>Выберите со скольки вам удобно</option>
+									<option value="9:00">9:00</option>
+									<option value="13:00">13:00</option>
+									<option value="17:00">17:00</option>
+								</select>
+								
+								<select required name="usluga" size="1">
+									<option disabled selected>Выберите услугу</option>
+									<option value="LOVE STORY">LOVE STORY</option>
+									<option value="Аренда студии">Аренда студии</option>
+									<option value="В ожидании чуда">В ожидании чуда</option>
+									<option value="Женский портрет">Женский портрет</option>
+									<option value="Мужской портрет">Мужской портрет</option>
+									<option value="Реклама">Реклама</option>
+									<option value="Свадьба">Свадьба</option>
+									<option value="Семья<">Семья</option>
+									<option value="Дети">Дети</option>
+									<option value="Пейзажи">Пейзажи</option>
+									<option value="Фотопроекты">Фотопроекты</option>
+									<option value="Фото на документы">Фото на документы</option>
+								</select>
+								<input type="submit" name="zabron" value="Забронировать">
+							</form>
+							<?php 
+                                    if(isset($_GET["z"]) && $_GET["z"]==1)
+                                    {
+                                        echo "Забронировано";
+                                    }
+                                    elseif(isset($_GET["z"]) && $_GET["z"]==2){
+                                        echo "Время забронировано";
+                                    }
+                                    elseif(isset($_GET["z"]) && $_GET["z"]==0)
+                                    {
+                                        echo "Не забронировано";
+                                    }
+                                ?>
+							
+							
+							<dir class="end_block_zapis">
+							<?php 
+                                if(isset($_GET["q"]) && $_GET["q"]==1)
+                                {
+                                    echo "Уже не ждем:)";
+                                } 
+                                else
+                                {
+                                    echo "Ждем ваших заказов";
+                                }
+                            ?>
+							
+							
+							
+							</dir>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="autor_foto_clientov">
+				<h3>© 2017 Сергей Мелкомуков </h3>
+			</div>
+			<!--конец кода подключаем джава скрипты-->
+			<script src="js/headhesive.min.js"></script>
+			<script src="js/js.js"></script>
+			<script src="js/tcal.js"></script>
+		</div>
+	</body>
+</html>

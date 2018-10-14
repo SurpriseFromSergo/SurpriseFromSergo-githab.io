@@ -1,0 +1,658 @@
+/*Версия для компьтера,ноута (с высоким разрешение экрана короче)*/
+/*Главная страница*/
+@keyframes anim{
+    0%{
+        top:0px;
+		
+    }
+    
+    100%{
+        top:-150px;
+        background: #cc5e8a;
+    }
+}
+
+@keyframes anim_block_foto_clientov{
+	0%{
+        top:0px;
+    }
+    100%{
+        top:-150px;
+        background: #fff;
+    }
+}
+
+@keyframes anima{
+    0%{
+        color:green;
+        background: yellow;
+    }
+    25%{
+        color:yellow;
+        background: green;
+    }
+    50%{
+        color:green;
+        background: blue
+    }
+    75%{
+        color:blue;
+        background: purple;
+    }
+    100%{
+        color:green;        
+        background: yellow;
+    }
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+td{
+    border: solid 1px #000;
+    padding: 1px;
+}
+
+.content {
+
+	margin: 0 auto;
+}
+
+.header {
+    z-index: 99999;
+	height: 85px;
+	background-color: #fff;
+}
+
+.menu {
+	width: 890px;
+	height: 100%;
+	padding-top: 33px;
+	margin-left: 33%;
+	
+	
+}
+
+.menu_v {
+	padding-top: 4px;
+	width: 14%;
+	margin: 0 auto;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	font-family: raleway,sans-serif;
+}
+
+.menu_v>a{
+    color: #5e697d;
+    transition: 1s;
+}
+
+.menu_v>a:hover{
+    transition: 1s;
+    color: blue;
+}
+
+.logotip {
+    //animation: anima 4s infinite;
+	background-color: #01070b;
+	margin: 0 auto 0 9%;
+	width: 132px;
+	height: 100%;
+	float: left;
+	
+}
+
+
+
+.logo_photo {
+	color: #fbfbfb;
+	margin-top: 15px;
+	margin-left: 10%;
+	width: 35%;
+	font: normal normal normal 22px/1.4em jura,sans-serif;
+	
+}
+
+.logo_WORLD {
+	color: #fbfbfb;
+	font: normal normal normal 22px/1.4em jura,sans-serif;
+	margin-left: 10%;
+}
+
+.logo_ugol {
+	background-color: #01070b;
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid #fbfbfb;
+	border-right: 2px solid #fbfbfb;
+}
+
+.social_networks {
+	width:105px;
+	
+	float: left;
+}
+
+/*Текст после шапки*/
+
+.content_text_posle_header {
+	
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.text_hello {
+	font: 28px/1.4em arial, sans-serif;
+	margin-bottom: 10px;
+	color: #425578;
+	
+}
+
+.text_posle_hello {
+	color: #425578;
+	font: 18px/1.4em arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.pictures{
+	margin: 0px;
+	height: 65vw;
+}
+
+.rek:hover .hide{
+    display: inline-block;
+    animation: anim 2s forwards;
+}
+
+.hide{
+    padding:5%;
+    background-color: #f761ce;
+    width: 90%;
+    position: relative;
+    height: 160px;
+    display: none;
+}
+
+.pictures>.rek{
+    overflow: hidden;
+	width: 25%;
+	height: 33.33%;
+	float: left;
+}
+.rek>img{
+    width: 100%;
+    height: 100%;
+}
+
+.autor {
+	width: 250px;
+	height: 30px;
+	color: #425578;
+	font: 12px/1.4em arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 15%;
+	
+}
+
+/*Анимация ссылок*/
+a{
+    text-decoration: none;
+}
+/*классы для работы с шапкой и скриптом*/
+
+.headhesive {
+	position: fixed;
+	width: 100%;
+}
+
+/*Страница "Фото клиентов"*/
+
+.body_foto_clientov {
+	background-color: #fafaf2;
+}
+
+.content_under_header_all{
+	
+	height: 4750px;
+	width: 1080px;
+	margin-left: auto;
+	margin-right:auto;
+	padding-top: 100px;
+}
+
+.text1_foto_clientov {
+	color: #425578;
+	font: normal normal normal 22px/1.4em jura,sans-serif;
+	margin-left: 2%;
+}
+
+.text2_foto_clientov {
+	margin-top: 25px;
+	color: #425578;
+	font: normal normal normal 14px/1.4em jura,sans-serif;
+	margin-left: 2%;
+}
+
+.picture_foto_clientov{
+    overflow: hidden;
+	width: 30%;
+	margin-left:2%;
+	float:left;
+	margin-bottom: 40px;
+	height: 12.5%;
+}
+
+.pictures_foto_clientov{
+	margin-top: 20px;
+	height: 1900px;
+	width: 100%;
+}
+
+.picture_foto_clientov>img{
+	width: 100%;
+	height: 100%;
+}
+
+.block_for_picture {
+	padding:5%;
+    background-color: #fff;
+    width: 90%;
+    position: relative;
+    height: 120px;
+    display: none;
+	
+}
+
+.two {
+  padding: 50px 20px;
+  text-align: center;
+} 
+/***************************/
+.two h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  color: #5C2610;
+  font-size: 2em;
+  font-weight: normal;
+  line-height: 1;
+  padding: 10px 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.two h1:before {
+  content: ""; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 150%;
+  border-radius: 50%/30%;
+  border: 6px solid #5C2610;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+@media (max-width: 320px) {
+  .two h1 {font-size: 2em;}
+}
+/*******************************/
+.autor_foto_clientov {
+	width: 100%
+	height: 100px;
+	color: #425578;
+	font: 12px/1.4em arial, sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    padding-left: 15%;
+	background-color: #fff;
+}
+
+.name_picture {
+	font-family: Roboto Condensed, sans-serif;
+	color: #fff;
+	
+	font-size: 25px;
+}
+
+.stoimost_ssulka {
+	height:45px;
+	width:200px;
+	margin-top:15px;
+	
+	padding-top:15px;
+	color: rgba(255,255,255,0.7);
+    border: 1px solid rgba(255,255,255,0.7);
+	text-align: center;
+	font: 24px Roboto Condensed, sans-serif;
+}
+
+.stoimost_ssulka>a {
+	color: rgba(255,255,255,0.7);
+}
+
+.stoimost_ssulka:hover  {
+	height:45px;
+	width:200px;
+	margin-top:15px;
+	
+	padding-top:15px;
+	color: #fff;
+    border: 1px solid #fff;
+	text-align: center;
+	font: 24px Roboto Condensed, sans-serif;
+}
+
+.stoimost_ssulka>a:hover  {
+	color: #fff;
+}
+
+
+
+/*Страница "О нас"*/
+
+.under_header_content_O_nas {
+	background-image: url("../img/onas/10.jpg");
+	background-size: cover;
+	width:100%;
+	height:750px;
+	padding-top: 2%;
+}
+
+.mini_text_block_O_nas {
+	width: 30%;
+	height: 75%;
+	background-color: #fff;
+	margin-left:6%;
+	padding: 50px;
+	
+}
+
+.zagolovok_text_block_O_nas {
+	width: 150px;
+	height: 50px;
+	color: blue;
+	font: 42px/1.4em arial, sans-serif;
+	margin-left: 8%;
+}
+
+.osnovnoy_text_in_block_O_nas {
+	text-indent: 25px;
+	margin-top:15px;
+	color: #425578;
+	font: 15px/1.4em arial, sans-serif;
+}
+
+.okonchanie_texta_in_block {
+	margin-top: 25px;
+	font: 22px/1.4em arial, sans-serif;
+	color: red;
+}
+
+/*Страница "Контакты"*/
+
+.content_all_Kontaktu {
+	
+}
+
+.under_header_content_Kontaktu {
+	background-image: url("../img/kontaktu/k1.jpg");
+	background-size: cover;
+	width:100%;
+	height:680px;
+	padding-top: 5%;
+}
+
+.mini_text_block_Kontaktu {
+	width: 25%;
+	height: 70%;
+	background-color: #fff;
+	margin-left:66%;
+	padding: 50px;
+	
+}
+
+.zagolovok_text_block_Kontaktu {
+	font: normal normal normal 26px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	color: rgba(94,93,93,1);
+	letter-spacing: 3px;
+	line-height: 42px;
+}
+
+.osnovnue_kontaktnue_dannue_in_block_Kontaktu {
+	margin-top: 20px;
+	color: rgba(94,93,93,1);
+}
+
+.pochta_i_telefon_Kontaktu {
+	color: inherit;
+	vertical-align: baseline;
+	font: normal normal normal 14px/1.4em raleway,sans-serif;
+	text-decoration-style:solid;
+}
+
+.forma_otpravki_okna_Kontaktu {
+	margin-top: 35px;
+	width: 100%;
+	height: 280px;
+	
+}
+
+.forma_otpravki_okna_Kontaktu>form>input {
+	padding: 5px;
+	width: 100%;
+	height: 20px;
+	font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	margin-bottom:5px;
+}
+
+.forma_otpravki_okna_Kontaktu>form>textarea {
+	padding: 5px;
+	width: 100%;
+	font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	height: 100px;
+	margin-bottom:5px;
+}
+
+.forma_otpravki_okna_Kontaktu>form>input[type=submit] {
+	width: 30%;
+	height:35px;
+	margin-left:65%;
+	color: #fff;
+	background-color: rgba(69, 149, 247, 1);
+	padding: 5px;
+}
+
+/*Страница "Запись"*/
+
+.content_all_Zapis {
+	
+}
+
+.content_under_header_Zapis {
+	width:100%;
+	height: 800px;
+	background-image: url("../img/zabronirovat/green_fon_zabronirovat.jpg");
+	background-size: cover;
+}
+
+.Kalendar_Zapis {
+	
+	width:60%;
+	height:100%;
+	float:left;
+	
+}
+
+.google_kalendar {
+	margin-left:10%;
+	margin-top:10%;
+	
+}
+
+.Menu_vubora_uslugi_Zapis {
+	
+	width:39%;
+	height:100%;
+	float:left;
+	
+}
+
+.block_vubora_uslugi_Zapis {
+	background-color: #fff;
+	width:75%;
+	height:80%;
+	margin-left:7%;
+	margin-top:7%;
+	border-radius: 10px;
+	padding-top:6%;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.Title_zapis {
+	font-weight: bold;/*Делает шрифт толстым*/
+	font-style: italic;/*Делает шрифт курсивом*/
+	text-align: center;/*выравнивание текста left right center */
+	color:#000;
+	font-family: Georgia, "Times New Roman", Times, serif;/*  шрифты c засечеками */
+	font-size: 35px;
+}
+
+.text_for_users_zapis{
+	text-align: center;/*выравнивание текста left right center */
+	font-style: italic;
+	color:#000;
+	font-family: Georgia, "Times New Roman", Times, serif;/*  шрифты c засечеками */
+	font-size: 23px;
+	margin-top:5%;
+	
+}
+
+.forma_zapis{
+	margin-top:5%;
+	width:100%;
+	height:50%;
+}
+
+.forma_zapis>form>input {
+	padding: 5px;
+	width: 80%;
+	height: 20px;
+	font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	margin-left:7%;
+	font-style: italic;
+	margin-bottom:15px;
+}
+
+.forma_zapis>form>select{
+	padding: 5px;
+	width: 84%;
+	height: 35px;
+	font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+	margin-left:7%;
+	font-style: italic;
+	margin-bottom:15px;
+}
+
+.forma_zapis>form>input[type=submit] {
+	width: 40%;
+	height:55px;
+	margin-top:32px;
+	margin-left:25%;
+	color: #fff;
+	background-color: rgba(69, 149, 247, 1);
+	padding: 5px;
+}
+
+.end_block_zapis{
+	margin-top:15px;
+	font-weight: bold;/*Делает шрифт толстым*/
+	text-align: center;/*выравнивание текста left right center */
+	color:#F22C5B;
+	font: 35px/1.4em arial, sans-serif;
+	font-style: italic;/*Делает шрифт курсивом*/
+	
+}
+
+.kli{
+    position: relative;
+    left: 370px;
+    top: 40px;
+    height: 55px;
+    width: 220px;
+    border-radius: 40px;
+    background-color:aqua;
+}
+
+.kli>a{
+    font-family: Tahoma;
+    display: block;
+    font-size: 19px;
+    font-style: italic;
+}
+
+
+/*Страницы с описанием услуг на сайте*/
+
+.patch {
+	color:#7f7f7f;
+	margin-left:40px;
+	margin-top:25px;
+}
+
+.Zagolovok_uslugi {
+	font-size: 42px;
+	font-family: Roboto Condensed, sans-serif;
+	color:#f761ce;
+	margin-top:35px;
+	margin-left:40px;
+}
+
+.content_uslugi {
+	margin-top:25px;
+	width:90%;
+	margin-left:40px;
+	color: #0f0f0f;
+    font-family: Roboto Condensed, sans-serif;
+    font-size: 16px;
+	line-height: 2;
+}
+
+.osoba_stroka_love_stori {
+	color: #dd0055;
+	font-style: italic;
+	font-family: Roboto Condensed, sans-serif;
+	font-size: 35px;
+}
+
+.background_uslugi {
+	background-color: #fafaf2;
+}
+
+/* страница со списком клиентов из базы данных*/
+
+.content_spisok_{
+    width:100%;
+    height: 550px;
+    background-image: url("../img/zabronirovat/company.jpg");
+	background-size: cover;
+    
+}
+
+.zagolovoc_spisok{
+    color: #dd0055;
+	font-style: italic;
+	font-family: Roboto Condensed, sans-serif;
+	font-size: 35px; 
+}
+
+.table_spisok{
+    margin-left: 40px;
+    margin-top: 20px;
+    width:400px;
+}
+

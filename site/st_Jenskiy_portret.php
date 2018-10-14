@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"> 
+<html>
+	<head> 
+		<meta charset="UTF-8"> 
+		<title>Женский портрет</title> 
+		 <link rel="stylesheet" href="css/main_style.css"> 
+	</head>
+	<body> 
+		<div class="content">
+			<div class="header">
+				<div class="logotip">
+					<div class="logo_photo">
+						photo
+					</div>
+					<div class="logo_WORLD">
+						WORLD
+					</div>
+				</div>
+				<div class="menu">
+					<div class="menu_v">
+						<a href="obloshka.php">Обложка</a>
+					</div>
+					<div class="menu_v">
+						<a href="index.php">Главная</a>
+					</div>
+					<div class="menu_v">
+						<a href="photo__clientov.php">Фото клиентов</a>
+					</div>
+					<div class="menu_v">
+						<a href="onas.php">О нас</a>
+					</div>
+					<div class="menu_v">
+						<a href="kontakts.php">Контакты</a></li>
+					</div>
+					<div class="menu_v">
+						<a href="zapis.php">Запись</a>
+					</div>
+					<div class="social_networks">
+						<a href="https://vk.com" target="_blank"><img src="img/social/vk.png" alt="vk site" width=30 high=30></a>
+						<a href="https://ru-ru.facebook.com/" target="_blank"><img src="img/social/fb.png" alt="facebook site" width=30 high=30></a>
+						<a href="https://www.instagram.com/" target="_blank"><img src="img/social/ins.png" alt="instagram site" width=30 high=30></a>
+					</div>
+				</div>
+				
+			</div>
+			<div class="content_text_posle_header">
+				<div class="patch">
+					Главная / Услуги / Женский портрет
+				</div>
+				<div class="Zagolovok_uslugi">
+					Женский портрет
+				</div>
+				<dir class="content_uslugi">
+					
+					<p>Каждый человек наделен своим характером и харизмой. Сегодня вы любите весь мир, а завтра готовы уйти в отшельники. Задача портрета&nbsp; - передать настроение и внутреннее &laquo;Я&raquo; модели. Ведь чаще всего под скромным библиотекарем скрывается роковая женщина&hellip;</p>
+					<p>В фотостудии Наталии Южаковой Вы можете примерить на себя разные стили от традиционных образов до сюрреалистических сюжетов. Русско-народные мотивы, ковбои, пин-ап, голливудские образы, ню&hellip; Фантазии нет предела! Съемка проводится в студии и за ее приделами. Конечный продукт представлен в электронном варианте на красиво оформленном диске, лучшие фотографии в печатном варианте.</p>
+					<dir class="osoba_stroka_love_stori">СТУДИЯ (АРЕНДА СТУДИИ ДОПОЛНИТЕЛЬНО НЕ ОПЛАЧИВАЕТСЯ)</dir>
+					<p><strong>СТАНДАРТ - 2000 РУБ.&nbsp;</strong>ЧАС СЪЕМКИ В РАЗНЫХ ЛОКАЦИЯХ СТУДИИ. КОНЕЧНЫЙ РЕЗУЛЬТАТ ВЫ ПОЛУЧАЕТЕ В ЭЛЕКТРОННОМ ВАРИАНТЕ НА ВАШ НОСИТЕЛЬ ИЛИ ПОЧТУ.</p>
+					<p>50-60 ФОТО В ЦВЕТО И СВЕТОКОРРЕКЦИИ</p>
+					<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;"><strong>ПОРТФОЛИО</strong></p>
+					<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;"><strong>1 ФОТО (С ДЕТАЛЬНОЙ РЕТУШЬЮ) - 300 РУБ</strong></p>
+					<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;"><strong>2-5 ФОТО (С ДЕТАЛЬНОЙ РЕТУШЬЮ) - 200 РУБ/ШТ</strong></p>
+					<p style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;"><strong>5-9 ФОТО (С ДЕТАЛЬНОЙ РЕТУШЬЮ) - 180 РУБ/ШТ</strong></p>
+					<table border="1" style="font-size: 12px; text-align: justify; line-height: 18px; border-collapse: collapse; margin: 1px; width: 912px; height: 221px;" frame="HSIDES" rules="ALL" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>АРТ-МИНИ</strong></p>
+					<p>1500 РУБ.</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>30 МИНУТ СЪЕМКИ С ИСПОЛЬЗОВАНИЕМ РАЗНЫХ РЕКВИЗИТОВ И АКСЕССУАРОВ НА РАЗНЫХ ИНТЕРЬЕРНЫХ ЗОНАХ. ОДИН ОБРАЗ.</p>
+					<p>КОНЕЧНЫЙ РЕЗУЛЬТАТ РАБОТЫ ПРЕДСТАВЛЕН НА &nbsp;ДИСКЕ С <strong>5 ФОТО В ЖУРНАЛЬНОЙ ОБРАБОТКЕ + ВЕСЬ ОТСНЯТЫЙ МАТЕРИАЛ С ЦВЕТОКОРРЕКЦИЕЙ.</strong></p>
+					</td>
+					</tr>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>АРТ-СТАНДАРТ</strong></p>
+					<p>2500 РУБ.</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>ЧАС СЪЕМКИ С ИСПОЛЬЗОВАНИЕМ РАЗНЫХ РЕКВИЗИТОВ И АКСЕССУАРОВ НА РАЗНЫХ ИНТЕРЬЕРНЫХ ЗОНАХ И ФОНАХ. ВОЗМОЖНОСТЬ СМЕНЫ ОБРАЗА.</p>
+					<p>КОНЕЧНЫЙ РЕЗУЛЬТАТ РАБОТЫ ПРЕДСТАВЛЕН НА ПОДАРОЧНОМ ДИСКЕ С<strong> 10 ФОТО В ЖУРНАЛЬНОЙ ОБРАБОТКЕ + ВЕСЬ ОТСНЯТЫЙ МАТЕРИАЛ С ЦВЕТОКОРРЕКЦИЕЙ.</strong></p>
+					</td>
+					</tr>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>КРЕАТИВ</strong></p>
+					<p>4000РУБ.</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>ДО ТРЕХ ЧАСОВ СЪЕМКИ (С ПОДГОТОВКОЙ ОБРАЗА)</p>
+					<p>РАЗРАБОТКА ОБРАЗА И ТЕМАТИКИ СЪЕМКИ&nbsp;</p>
+					<p>СЮЖЕТ.</p>
+					<p>ВИЗАЖ. ПРИЧЕСКА.</p>
+					<p>КОНЕЧНЫЙ РЕЗУЛЬТАТ РАБОТЫ ПРЕДСТАВЛЕН НА ПОДАРОЧНОМ ДИСКЕ С 20 ФОТОГРАФИЯМИ В АВТОРСКОЙ ОБРАБОТКЕ</p>
+					</td>
+					</tr>
+					</tbody>
+					</table>
+					<dir class="osoba_stroka_love_stori">ВЫЕЗДНАЯ ФОТОСЕССИЯ (АРЕНДА СЪЕМОЧНОЙ ПЛОЩАДКИ ОПЛАЧИВАЕТСЯ ДОПОЛНИТЕЛЬНО МОДЕЛЬЮ)</dir>
+					<table border="1" style="font-size: 12px; text-align: justify; line-height: 18px; border-collapse: collapse; margin: 1px; width: 912px; height: 217px;" frame="HSIDES" rules="ALL" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>РЕПОРТАЖ</strong></p>
+					<p>1500 РУБ/ЧАС</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>СЪЕМКА ВАШИХ МЕРОПРИЯТИЙ В РЕПОРТАЖНОМ СТИЛЕ (БАНКЕТ, ДЕНЬ РОЖДЕНИЯ, ДЕТСКИЙ ПРАЗДНИК И ДР.)</p>
+					</td>
+					</tr>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>LIGHT</strong></p>
+					<p>2500 РУБ.</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>ЧАС &ndash; ПОЛТОРА ЧАСА СЪЕМКИ В ОДНОМ МЕСТЕ (ПАРК, КАФЕ, ПРИРОДНЫЕ ЛАНДШАФТЫ, АРХИТЕКТУРНЫЕ СООРУЖЕНИЯ И Т.Д. ).</p>
+					<p>КОНЕЧНЫЙ РЕЗУЛЬТАТ РАБОТЫ ПРЕДСТАВЛЕН НА &nbsp;ДИСКЕ С 10 ФОТОГРАФИЯМИ (КОРРЕКЦИЯ ЦВЕТА + КАДРИРОВАНИЕ + КОРРЕКЦИЯ НЕДОСТАТКОВ КОЖИ) + ВСЕ УДАЧНЫЕ КАДРЫ В ЦВЕТО И СВЕТОКОРРЕКЦИИ.</p>
+					</td>
+					</tr>
+					<tr>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="145">
+					<p><strong>PREMIUM</strong></p>
+					<p>4000 РУБ.</p>
+					</td>
+					<td style="padding: 2px; vertical-align: top; text-align: left;" width="927">
+					<p>ДО ТРЕХ ЧАСОВ СЪЕМКИ В РАЗНЫХ МЕСТАХ, ВКЛЮЧАЯ ВРЕМЯ НА ДОРОГУ.</p>
+					<p>ТЕМАТИЧЕСКАЯ СЪЕМКА.</p>
+					<p>РАЗРАБОТКА ОБРАЗА, СТИЛЯ, СЮЖЕТА.</p>
+					<p>КОНЕЧНЫЙ РЕЗУЛЬТАТ РАБОТЫ ПРЕДСТАВЛЕН НА &nbsp;ДИСКЕ&nbsp;</p>
+					</td>
+					</tr>
+					</tbody>
+					</table>
+
+					
+				</dir>
+				<div class="autor">	
+					<h3>© 2017 Сергей Мелкомуков </h3>
+				</div>
+			</div>
+			
+			<!--конец кода подключаем джава скрипты-->
+			<script src="js/headhesive.min.js"></script>
+			<script src="js/js.js"></script>
+		</div>
+	</body>
+</html>

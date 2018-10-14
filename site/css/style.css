@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	/*background-color: #4fbcee;       установка цвета на фон сайта */
+	background-image: url(../img/test/fon_test.jpg);/*установка катринки на фон сайта (по умолчанию картинки дублируются по размеру)*/
+	/*background-repeat: no-repeat;тег управляет числом повторений repeat-y(дублирует по оси у) repeat-x(по оси х) no-repeat(не дублируются)*/
+	/*background-position: 0px 200px;сдвиг фоновой картинки на 0 по высоте и 200px по ширине*/
+	background: #4fbcee url(../img/test/fon_test.jpg) no-repeat 0px 200px;
+	/*В background-position: также можно указывать 2 параметра таких как top, botton,left, right,center напримет верхний левый угол background-position: top left;*/
+	/*background: #4fbcee;  установка цвета на фон сайта(сокращенная запись)*/
+	/*background: #4fbcee url(../img/test/fon_test.jpg) no-repeat right top; станавливает фоном картинку поверх цвета без повторений в правом верхнем углу*/
+	
+}
+p {
+	color:#ff0000;/* селектор по тегу(изменяет параметры всех тегов на странице указанного в селлекторе) */ 
+	font-family: Arial, Verdana, Helvetica, sans-serif;/*  шрифты без засечек */
+	font-size: 14px;/* размер шрифта(задается в пикселях 14px, пунктах 14pt,процентах 120%, в ем единицах 1.1em )(норма 16px 12pt 100% 1em) */
+}
+
+.abzac {
+	color: #696969;/* селектор по классу(задаешь элементу класс, а тут задаешь изменения этому классу) */
+}
+
+.text_weight {
+	font-weight: bold;/*Делает шрифт толстым*/
+}
+
+.italic_text {
+	font-style: italic;/*Делает шрифт курсивом*/
+}
+
+.weight_italic {
+	font-weight: bold;/*Делает шрифт толстым*/
+	font-style: italic;/*Делает шрифт курсивом*/
+}
+
+.align_css {
+	text-align: center;/*выравнивание текста left right center */
+}
+
+.abzac_s_krasnoy_strokoy {
+	text-indent: 35px;/*делает красную строку в пикселях или процентах*/
+	line-height: 1.5;/*создает высоту строки в пикселях или коффицента для font-size*/
+	font-size: 15px;
+}
+
+.font_sv {
+	font: 14px Arial, Verdana, Helvetica, sans-serif;/*свойства шрифта: (italic или\и bold) размер/(высота строки) название*/
+}
+
+.i_tak_nac {
+	color: #696969;/* селектор по классу(задаешь элементу класс, а тут задаешь изменения этому классу) */
+	font-family: Georgia, "Times New Roman", Times, serif;/*  шрифты c засечеками */
+	
+}
+
+#header {
+	color: #243f7a;/*  селектор по id(задает параметры для конкретного блока с пометкой  id) */
+	font-family: Arial, Verdana, Helvetica, sans-serif; /*  шрифты без засечек */
+	font-size: 1.8em;
+	margin: 25px;
+	
+}
+
+p span {
+	color: #FF00FF;/*  контекстный селектор(стилизует только внутри span заключенный в указанный тег перед ним) */
+}
+
+h2,h3 {
+color: #243f7a;/*  группировка нескольких тегов и установление им одинаковых парраметров */
+}
+
+a:link {
+	color: #54a49d;/*ssulka prosto*/
+}
+a:visited {
+	color: #ce632f;/*ssulka posle nagatia korichnevuy*/
+}
+a:hover {
+	color: #ca16e5;/*ssulka pri navedenii rozovuy*/
+	text-decoration: none;/*ubrat podcherkivania*/
+}
+a:active {
+	color: #3b58d5;/*ssulka pri nagatii siniy*/
+}
+
+.line_in_text {
+    color: #ca16e5;
+	text-decoration: underline;/*подчеркивание текста снизу*/
+}
+
+.overline {
+	text-decoration: overline;/*подчеркивание текста сверху*/
+}
+
+.line_through {
+	text-decoration: line-through;/*Зачеркивание текста*/
+}
+
+.list_namber_style {
+	list-style-type: upper-roman;/*все значения не маркированных атрибутов: lower- upper- -roman -alpha*/
+}
+
+.list_namber_marker_style {
+	list-style-type: square;/*все значения маркированных атрибутов: circle disk(по умолчанию) square decinal(chislo) none*/
+}
+
+.my_list_namber_style {
+	list-style-image: url(../img/test/tick.png);
+	list-style-position: inside;/*помещает маркер во внутрь списка(по умолчанию он вне списка, работает и с маркированными)*/
+}
+
+.full_list_style {
+	list-style: upper-alpha inside;/*задает стиль нумерации(list-style: тип позиция картинка_маркер(не обязателен))*/
+}
+/*задание рамки*/
+.border {
+	/*border-wight: 3px;*/
+	/*border-style: dotted;*//*пунктир dashed сплошная solid точечная dotted*/
+	/*border-color: #59779f;*/
+	border: 3px dashed #59779f;/* эти приставки указывают сторону рамки -top -botton -right -left*/
+}
+
+.box_weight {
+	border: 2px solid #ccc;/*ramka*/
+	width: 600px;/*ширина можно в пикселях или процентах*/
+	height: 50px;/*высота по умолчанию задается контентом, но всеже её можно регулировать*/
+	overflow: scroll;/*что делать если текст не влазиет по высоте visible(по умолчанию видимый)  */
+	/*auto(со скролом если не влазиет) scroll(всегда скрол)*/
+	/*hidden лишняя часть текста урезается(становится невидимой)*/
+}
+
+.min_max_weight {
+	border: 2px solid #ccc;/*ramka*/
+	min-width: 600px;
+	max-width: 1000px;
+}
+
+.margin1 {
+	/*margin: вверх(рх) право(рх) низ(рх) лево(рх) (общий синтаксис)*/
+	/*еще для обращения к каждой стороне можно использовать приставки -botton -left -right -top*/
+	/*margin: 100рх 30рх;  это означает отступы снизу и сверху по 100 а слева и српаво по 30*/
+	margin: 100px;/*внешний отступ по 100 пикселей со всех сторон*/
+}
+
+
+.margin_wight_height {
+	border: 2px solid #ccc;/*ramka*/
+	width: 500px;/*ширина можно в пикселях или процентах*/
+	height: 50px;/*высота по умолчанию задается контентом, но всеже её можно регулировать*/
+	overflow: scroll;/*что делать если текст не влазиет по высоте visible(по умолчанию видимый)  */
+	margin-left: 50px;
+}
+
+.margin2 {
+	margin: 100px;
+}
+/*работа со всеми элементами*/
+#content {
+	width: 800px;
+	padding: 20px; 
+	border: 10px solid #c4c4c4;
+	margin: 40px auto 160px;/*auto здесь задает автоматический отступ слева и право (равный) и в зависимости от масштаба*/
+	background-color: #e4e799;/*установка цвета на фон листа сайта */
+}
+
+.test_padding {
+	border: 3px dotted #0000cd;
+	margin: 20px 50px 10px 100px;
+	padding-left: 30px;/*так же как и margin строки 130-133*/
+}
+
+.table {
+	width: 600px;
+	border: 2px solid #000;
+	border-collapse: collapse;/*обьединяет в едино рамку таблицы с рамками ячеек и ячеек между собой*/
+	color: #606060;
+	background-color: #fff;
+}
+
+.td_th {
+	border: 2px solid #000;
+	height: 40px;
+}
+
+.th_background{
+	background-color: #edeeee;
+	border: 2px solid #000;
+	height: 40px;
+	color: #9c9c9c;
+}
+
+.left_colona_v {
+	padding-left: 15px;
+	background-color: #edeeee;
+	border: 2px solid #000;
+	height: 40px;
+	color: #9c9c9c;
+}
+
+
+.left_colona {
+	padding-left: 15px;
+	border: 2px solid #000;
+	height: 40px;
+}
